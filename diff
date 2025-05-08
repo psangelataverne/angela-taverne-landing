@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Psicóloga Ángela Taverne</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Psicóloga Ángela Taverne</h1>
+    <p>Atención psicológica personalizada para tu bienestar emocional</p>
+    <a href="#contacto" class="btn">Agendar sesión</a>
+  </header>
+
+  <section class="presentacion">
+    <h2>Sobre mí</h2>
+    <p>Soy Ángela Taverne, psicóloga clínica con tres años de experiencia acompañando a personas en procesos de crecimiento personal, manejo del estrés, ansiedad y salud emocional.</p>
+  </section>
+
+  <section class="servicios">
+    <h2>Especialidades</h2>
+    <ul>
+      <li>Terapia individual para adultos</li>
+      <li>Ansiedad, estrés y crisis personales</li>
+      <li>Autoestima y desarrollo personal</li>
+      <li>Apoyo en procesos de duelo y cambios vitales
