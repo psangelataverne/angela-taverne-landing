@@ -16,7 +16,6 @@ body {
 
 /* Encabezado principal */
 header {
-  font-family: 
   background-color: #dbe9f4;
   padding: 40px 20px;
   text-align: center;
@@ -25,7 +24,7 @@ header {
 }
 
 header h1 {
-  font-family: 
+ 
   background-color: #dbe9f4;
   padding: 40px 20px;
   text-align: center;
