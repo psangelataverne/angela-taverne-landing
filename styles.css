@@ -36,26 +36,18 @@ header h1 {
 }
 
 header h2 {
-  background-color: #dbe9f4;
-  padding: 40px 20px;
-  text-align: center;
-  border-radius: 10px;
-  margin-bottom: 30px;
+ 
+
   font-size: 2.0em;
-  margin-bottom: 10px;
-  color: #003366;
+ 
+  
 }
 
 
 header h3 {
-  background-color: #dbe9f4;
-  padding: 40px 20px;
-  text-align: center;
-  border-radius: 10px;
-  margin-bottom: 30px;
+
   font-size: 2.0em;
-  margin-bottom: 10px;
-  color: #003366;
+ 
 }
 
 header p {
