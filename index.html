@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -15,8 +14,13 @@
       color: #333;
       line-height: 1.6;
     }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
     header.hero {
-      background-color: #eaf4ff;
+      background: linear-gradient(to right, #dceeff, #f0f8ff);
       padding: 4rem 2rem;
       text-align: center;
     }
@@ -39,16 +43,17 @@
       font-size: 1.1rem;
       transition: background 0.3s;
       display: inline-block;
+      margin-top: 1rem;
     }
     .cta-button:hover {
       background-color: #005fa3;
     }
     section.intro {
-      padding: 2rem;
       text-align: center;
+      padding: 2rem 1rem;
     }
     section.intro img {
-      max-width: 250px;
+max-width: 250px;
       border-radius: 10px;
       margin: 20px auto;
       display: block;
@@ -67,6 +72,24 @@
       width: 100%;
       height: 800px;
       margin: 2rem 0;
+    }
+    section.sobre-mi {
+      background-color: #fff0ea;
+      padding: 3rem 2rem;
+      border-radius: 1rem;
+      margin: 2rem auto;
+      max-width: 900px;
+    }
+    section.sobre-mi h2 {
+      text-align: center;
+      color: #003366;
+    }
+    section.sobre-mi ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    section.sobre-mi li {
+      margin-bottom: 0.5rem;
     }
     footer {
       text-align: center;
@@ -94,79 +117,66 @@
   </noscript>
 </head>
 <body>
+  <div class="container">
+    <header class="hero">
+      <h1>¿Te sientes emocionalmente estancad@?</h1>
+      <p>¿Estás buscando apoyo psicológico para sanar, aliviar y comprenderte? Soy <strong>Ángela Taverne</strong>, psicóloga clínica y te puedo ayudar.</p>
+      <a href="#agenda" class="cta-button">🗓️ Agendar sesión</a>
+    </header>
 
-  <header class="hero">
-    <h1>¿Te sientes emocionalmente estancad@?, ¿Estás buscando apoyo psicológico para sanar, aliviar y comprenderte?</h1>
-    <p>Soy <strong>Ángela Taverne</strong>, psicóloga clínica UC y te puedo ayudar.</p>
-    <a href="#agenda" class="cta-button">🗓️ Agendar sesión</a>
-  </header>
+    <section class="intro">
+      <img src="angela.jpg" alt="Foto de Ángela Taverne">
+      <div style="background-color: #f0f4f8; padding: 2rem; border-radius: 1rem; max-width: 900px; margin: auto;">
+        <h3 style="font-size: 1.5rem; color: #003366; margin-bottom: 1rem;">¿Te sientes identificad@ con alguna de estas situaciones?</h3>
+      </div>
+    </section>
 
-  <section class="intro">
-    <img src="angela.jpg" alt="Foto de Ángela Taverne">
-    <section style="background-color: #ffffff; padding: 3rem 1rem; text-align: center; max-width: 900px; margin: auto;">
-  
+    <section class="lista">
+      <p>🧠 Sientes que repites patrones en tus relaciones o que te vinculas de una manera que al final del día te genera dolor, malestar o sufrimiento.</p>
+      <p>🧠 Has notado malestares físicos o emocionales como ansiedad, angustia, cambios en el estado de ánimo o dificultades para dormir.</p>
+      <p>🧠 Estás pasando por una crisis vital, ruptura o cambio importante y no sabes cómo afrontarlo.</p>
+      <p>🧠 Quieres comprender mejor tu forma de ser, tus emociones y lo que está por detrás de lo que te ha ido ocurriendo.</p>
+      <p>🧠 Te sientes perdid@ o desconectad@ de ti mism@, sin saber muy bien qué ocurre.</p>
+      <p>🧠 Te “persigues” o "angustias" rápido.</p>
+      <p>🧠 Quieres identificar tu estilo de apego, el cómo te relacionas y por qué ciertas situaciones, experiencias o relaciones te afectan más que otras.</p>
+    </section>
 
+    <section id="agenda">
+      <iframe src="https://calendly.com/tavernedkangela/30min?month=2025-07"></iframe>
+    </section>
 
-  <div style="background-color: #f0f4f8; padding: 2rem; border-radius: 1rem;">
-    <h3 style="font-size: 1.5rem; color: #003366; margin-bottom: 1rem;">
-      ¿Te sientes identificad@ con alguna de estas situaciones?
-    </h3>
-  
+    <section class="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>¡Hola! Soy Ángela Taverne, psicóloga clínica egresada de la Pontificia Universidad Católica.</p>
+      <p>Trabajo desde un enfoque psicodinámico combinado con la teoría del apego. Tengo formación en trastornos de personalidad e intervenciones psicoterapéuticas. Mi práctica se basa en el respeto por el tiempo psicológico de cada persona, el cuidado del vínculo terapéutico y el trabajo desde la palabra.</p>
+      <p>Si buscas un espacio para comprenderte, encontrar sentido y avanzar, estoy aquí para acompañarte.</p>
+      <p>Cada proceso es diseñado cuidadosamente en conjunto, para ofrecer atención clínica personalizada.</p>
+
+      <h3>Trabajo con las siguientes temáticas:</h3>
+      <ul>
+        <li>📝 Identidad y autoestima</li>
+        <li>📝 Relaciones interpersonales y estilo de apego</li>
+        <li>📝 Ansiedad, angustia y crisis vitales</li>
+        <li>📝 Compulsiones, obsesiones y síntomas persistentes</li>
+        <li>📝 Sensación de persecución</li>
+        <li>📝 Trastorno de la personalidad</li>
+        <li>📝 Trastornos del estado de ánimo</li>
+        <li>📝 Estrés postraumático</li>
+        <li>📝 Disfunciones sexuales</li>
+        <li>📝 Trastornos disociativos</li>
+      </ul>
+
+      <a class="cta-button" href="https://calendly.com/tavernedkangela/30min" target="_blank">🗓️ Agendar sesión</a>
+    </section>
+
+    <footer>
+      <p>© 2025 Ángela Taverne · Todos los derechos reservados</p>
+    </footer>
   </div>
-</section>
-
-
-  <section class="lista">
-    <p>🧠 Sientes que repites patrones en tus relaciones o que te vinculas de una manera que al final del día te genera dolor, malestar o sufrimiento.</p>
-    <p>🧠 Has notado malestares físicos o emocionales como ansiedad, angustia, cambios en el estado de ánimo o dificultades para dormir.</p>
-    <p>🧠 Estás pasando por una crisis vital, ruptura o cambio importante y no sabes cómo afrontarlo.</p>
-    <p>🧠 Quieres comprender mejor tu forma de ser, tus emociones y lo que está por detrás de lo que te ha ido ocurriendo.</p>
-    <p>🧠 Te sientes perdid@ o desconectad@ de ti mism@, sin saber muy bien qué ocurre.</p>
-    <p>🧠 Te “persigues” o "angustias" rápido.</p>
-    <p>🧠 Quieres identificar tu estilo de apego, el cómo te relacionas y por qué ciertas situaciones, experiencias o relaciones te afectan más que otras.</p>
-  </section>
-     
-  <section id="agenda">
-    <iframe src="https://calendly.com/tavernedkangela/30min?month=2025-07"></iframe>
-  </section>
-
-
-   <img src="ange.jpg" alt="Foto de Ángela Taverne">
-    <section style="background-color: #ffffff; padding: 3rem 1rem; text-align: center; max-width: 900px; margin: auto;">
-<section class="sobre-mi">
-  <h2>Sobre mí</h2>
-  <p>¡Hola! Soy Ángela Taverne, psicóloga clínica egresada de la Pontificia Universidad Católica.</p>
-  <p>Trabajo desde un enfoque psicodinámico combinado con la teoría del apego. Tengo formación en trastornos de personalidad e intervenciones psicoterapéuticas. Mi práctica se basa en el respeto por el tiempo psicológico de cada persona, el cuidado del vínculo terapéutico y el trabajo desde la palabra.</p>
-  <p>Si buscas un espacio para comprenderte, encontrar sentido y avanzar, estoy aquí para acompañarte.</p>
-  <p>Cada proceso es diseñado cuidadosamente en conjunto, para ofrecer atención clínica personalizada.</p>
-
-  <h3>Trabajo con las siguientes temáticas:</h3>
-  <p>
-    <p>📝 Identidad y autoestima</p>
-    <p>📝 Relaciones interpersonales y estilo de apego</p>
-    <p>📝 Ansiedad, angustia y crisis vitales</p>
-    <p>📝 Compulsiones, obsesiones y síntomas persistentes</p>
-    <p>📝 Sensación de persecución</p>
-    <p>📝 Trastorno de la personalidad</p>
-    <p>📝 Trastornos del estado de ánimo</p>
-    <p>📝 Estrés postraumático</p>
-    <p>📝 Disfunciones sexuales</p>
-    <p>📝 Trastornos disociativos</p>
-</p>
-
- 
-
-
-    <a class="cta-button" href="https://calendly.com/tavernedkangela/30min" target="_blank">🗓️ Agendar sesión</a>
-</section>
-
-  
-
-  <footer>
-    <p>© 2025 Ángela Taverne · Todos los derechos reservados</p>
-  </footer>
 </body>
 </html>
+
+
 
 
 
