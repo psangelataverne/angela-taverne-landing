@@ -42,22 +42,21 @@ header p {
   margin-bottom: 20px;
 }
 
-
 .sobre-mi {
   background-color: #fff0ea;
-  padding: 3rem 1rem;
+  padding: 3rem 2rem;
   margin: 2rem auto;
   border-radius: 1rem;
   max-width: 900px;
   text-align: left;
 }
 .sobre-mi h2 {
-  color: #003366;
   text-align: center;
+  color: #003366;
 }
 .sobre-mi ul {
   list-style-type: none;
-  padding: 0;
+  padding-left: 0;
 }
 .sobre-mi li {
   margin-bottom: 0.5rem;
