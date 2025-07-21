@@ -1,79 +1,68 @@
+/* Importa fuente moderna */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
-
-/* Reset básico */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Estilo general del cuerpo */
 body {
-  font-family: 'Helvetica', 'Arial', sans-serif;
-  background-color: #f4f8fb;
-  color: #333;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #F7FAFC; /* Fondo suave */
+  color: #2D3748; /* Texto principal */
   line-height: 1.6;
-  padding: 20px;
 }
 
 /* Encabezado principal */
 header {
-  background-color: #dbe9f4;
-  padding: 40px 20px;
+  background-color: #4A5568; /* Azul grisáceo profundo */
+  color: white;
   text-align: center;
-  border-radius: 10px;
-  margin-bottom: 30px;
+  padding: 2rem 1rem;
 }
 
-header h1 {
- 
-  background-color: #dbe9f4;
-  padding: 40px 20px;
-  text-align: center;
-  border-radius: 10px;
-  margin-bottom: 30px;
-  font-size: 2.5em;
-  margin-bottom: 10px;
-  color: #003366;
-}
-
-
-
-header p {
-  font-size: 1.2em;
-  margin-bottom: 20px;
-}
-
-.sobre-mi {
-  background-color: #fff0ea;
-  padding: 3rem 2rem;
-  margin: 2rem auto;
-  border-radius: 1rem;
-  max-width: 900px;
-  text-align: left;
-}
-.sobre-mi h2 {
-  text-align: center;
-  color: #003366;
-}
-.sobre-mi ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-.sobre-mi li {
+h1 {
+  font-size: 2rem;
   margin-bottom: 0.5rem;
 }
 
+h2 {
+  color: #805AD5; /* Lila acento */
+  font-size: 1.5rem;
+}
 
+/* Contenido principal */
+.content {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
 
-/* Botón de agendamiento */
-.btn {
-  background-color: #009688;
-  color: white;
-  padding: 12px 24px;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: bold;
+/* Sección destacada */
+.highlight {
+  background-color: #A0D9C1; /* Verde salvia claro */
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+/* Botón de llamada a la acción */
+.cta-button {
   display: inline-block;
-  transition
+  background-color: #805AD5; /* Lila intenso */
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
 
+.cta-button:hover {
+  background-color: #6B46C1; /* Hover más profundo */
+  cursor: pointer;
+}
+
+/* Elimina subrayado de botones */
+a.cta-button {
+  text-decoration: none;
+}
